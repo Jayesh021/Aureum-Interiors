@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Transforming spaces with thoughtful, timeless design. Full-service interior design and build solutions for homes and businesses.">
+    <meta name="keywords" content="interior design, home renovation, commercial design, 3D visualization, interior designer">
+    <title>AUREUM Interiors - Transforming Spaces with Timeless Designs</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- Cookie Consent Banner -->
+    <div id="cookieBanner" class="cookie-banner">
+        <p>We use cookies to enhance your browsing experience. <a href="#privacy">Learn more</a></p>
+        <button onclick="acceptCookies()">Accept</button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="#home">
+                    <img src="aureum_logo.png" alt="AUREUM Interiors Logo" class="logo-image">
+                    <span class="logo-text">AUREUM Interiors</span>
+                </a>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#contact" class="nav-link cta-nav">Book Consultation</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="fade-in">Interior Design That Elevates Everyday Living</h1>
+            <p class="fade-in delay-1">Transforming spaces with thoughtful, timeless design. Full-service interior design and build solutions tailored to your lifestyle.</p>
+            <div class="hero-buttons fade-in delay-2">
+                <a href="#contact" class="btn btn-primary">Book a Consultation</a>
+                <a href="#portfolio" class="btn btn-secondary">View Portfolio</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Featured Services -->
+    <section id="featured-services" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Comprehensive design solutions from concept to completion</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card fade-in-up">
+                    <div class="service-icon">🏠</div>
+                    <h3>Residential Full Interiors</h3>
+                    <p>Complete home transformations with personalized design and build services.</p>
+                    <a href="#services" class="service-link">Learn More →</a>
+                </div>
+                <div class="service-card fade-in-up delay-1">
+                    <div class="service-icon">🏢</div>
+                    <h3>Commercial & Office Design</h3>
+                    <p>Inspiring workspaces that boost productivity and brand identity.</p>
+                    <a href="#services" class="service-link">Learn More →</a>
+                </div>
+                <div class="service-card fade-in-up delay-2">
+                    <div class="service-icon">📐</div>
+                    <h3>3D Virtual Design</h3>
+                    <p>Photorealistic visualizations to see your space before it's built.</p>
+                    <a href="#services" class="service-link">Learn More →</a>
+                </div>
+                <div class="service-card fade-in-up delay-3">
+                    <div class="service-icon">🔨</div>
+                    <h3>Renovation Planning</h3>
+                    <p>Strategic layouts and design planning for renovation projects.</p>
+                    <a href="#services" class="service-link">Learn More →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Preview -->
+    <section id="portfolio-preview" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <p>A glimpse of our recent transformations</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item fade-in-up">
+                    <div class="portfolio-image">
+                        <img src="C:\Users\jayes\OneDrive\Desktop\Mission Web\Daksh Creative Engineers\Draft - 2\Media\P1.heic" alt="Modern living room interior" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <h3>Modern Living Space</h3>
+                            <p>Residential · 2025</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item fade-in-up delay-1">
+                    <div class="portfolio-image">
+                        <img src="C:\Users\jayes\OneDrive\Desktop\Mission Web\Daksh Creative Engineers\Draft - 2\Media\P2.heic" alt="Minimalist bedroom design" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <h3>Scandinavian Retreat</h3>
+                            <p>Residential · 2025</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item fade-in-up delay-2">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop" alt="Contemporary kitchen interior" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <h3>Contemporary Kitchen</h3>
+                            <p>Residential · 2025</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item fade-in-up delay-3">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&h=600&fit=crop" alt="Office space design" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <h3>Corporate Office</h3>
+                            <p>Commercial · 2024</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item fade-in-up delay-4">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=800&h=600&fit=crop" alt="Luxury bathroom interior" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <h3>Luxury Bathroom</h3>
+                            <p>Residential · 2024</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item fade-in-up delay-5">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1600566753151-384129cf4e3e?w=800&h=600&fit=crop" alt="Dining room design" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <h3>Elegant Dining Room</h3>
+                            <p>Residential · 2024</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-cta">
+                <a href="#portfolio" class="btn btn-primary">View Full Portfolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Overview -->
+    <section id="process" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Design Process</h2>
+                <p>A seamless journey from vision to reality</p>
+            </div>
+            <div class="process-steps">
+                <div class="process-step fade-in-up">
+                    <div class="step-number">01</div>
+                    <h3>Consultation</h3>
+                    <p>We begin by understanding your vision, needs, and lifestyle to create a personalized brief.</p>
+                </div>
+                <div class="process-step fade-in-up delay-1">
+                    <div class="step-number">02</div>
+                    <h3>Concept Development</h3>
+                    <p>Our team develops creative concepts aligned with your aesthetic and functional requirements.</p>
+                </div>
+                <div class="process-step fade-in-up delay-2">
+                    <div class="step-number">03</div>
+                    <h3>Design & Visualization</h3>
+                    <p>Detailed moodboards, 3D renders, and material selections bring your space to life.</p>
+                </div>
+                <div class="process-step fade-in-up delay-3">
+                    <div class="step-number">04</div>
+                    <h3>Execution</h3>
+                    <p>Professional contractors and craftsmen execute the design with precision and care.</p>
+                </div>
+                <div class="process-step fade-in-up delay-4">
+                    <div class="step-number">05</div>
+                    <h3>Styling & Handover</h3>
+                    <p>Final styling touches and a complete walkthrough of your transformed space.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Client Testimonials</h2>
+                <p>What our clients say about working with us</p>
+            </div>
+            <div class="testimonials-carousel">
+                <div class="testimonial-card active">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"From our first meeting to the final reveal, the experience was seamless. They transformed our dated home into a modern sanctuary that perfectly reflects our style. Highly recommend!"</p>
+                    <div class="testimonial-author">
+                        <h4>Sarah & Michael Thompson</h4>
+                        <p>Residential Project · Mumbai</p>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"The team's attention to detail and ability to translate our brand identity into our office space was exceptional. Our employees love coming to work now!"</p>
+                    <div class="testimonial-author">
+                        <h4>Rajesh Kumar</h4>
+                        <p>Commercial Project · Bangalore</p>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"The 3D visualizations helped us make confident decisions before any work began. The final result exceeded our expectations in every way."</p>
+                    <div class="testimonial-author">
+                        <h4>Priya Sharma</h4>
+                        <p>Residential Project · Delhi</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-dots">
+                <span class="dot active" onclick="currentSlide(0)"></span>
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Credibility Section -->
+    <section id="credibility" class="section">
+        <div class="container">
+            <div class="credibility-grid">
+                <div class="credibility-item fade-in-up">
+                    <h3>10+</h3>
+                    <p>Years of Experience</p>
+                </div>
+                <div class="credibility-item fade-in-up delay-1">
+                    <h3>500+</h3>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="credibility-item fade-in-up delay-2">
+                    <h3>98%</h3>
+                    <p>Client Satisfaction</p>
+                </div>
+                <div class="credibility-item fade-in-up delay-3">
+                    <h3>10-Year</h3>
+                    <p>Warranty</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section bg-light">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image fade-in-left">
+                    <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&h=1000&fit=crop" alt="Interior designer at work" loading="lazy">
+                </div>
+                <div class="about-text fade-in-right">
+                    <h2>About Us</h2>
+                    <p class="large-text">We believe every space has the potential to inspire, comfort, and transform the way we live and work.</p>
+                    <p>With over a decade of experience in interior design and build execution, we specialize in creating thoughtful, timeless spaces that balance aesthetics with functionality. Our approach is collaborative, detail-oriented, and deeply rooted in understanding what makes your space uniquely yours.</p>
+                    <p>From residential homes to commercial offices, we handle every aspect of the design and build process—ensuring quality craftsmanship, transparent communication, and results that exceed expectations.</p>
+                    <div class="about-credentials">
+                        <h4>Awards & Recognition</h4>
+                        <ul>
+                            <li>Best Interior Design Studio 2024 - Design Excellence Awards</li>
+                            <li>Certified by IIID (Institute of Indian Interior Designers)</li>
+                            <li>Featured in Architectural Digest India</li>
+                        </ul>
+                    </div>
+                    <div class="about-tools">
+                        <h4>Design Tools We Use</h4>
+                        <p>AutoCAD · SketchUp · Enscape · 3ds Max · Photoshop · V-Ray</p>
+                    </div>
+                    <a href="#" class="btn btn-secondary">Download Portfolio PDF</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Services</h2>
+                <p>Comprehensive interior design and build solutions</p>
+            </div>
+            <div class="services-detailed">
+                <div class="service-detail fade-in-up">
+                    <h3>Full Home Interior Design</h3>
+                    <p>Transform your entire home with our end-to-end design and build service. From concept to completion, we handle every detail.</p>
+                    <div class="service-info">
+                        <h4>What's Included:</h4>
+                        <ul>
+                            <li>Complete space planning and layout design</li>
+                            <li>3D visualizations and mood boards</li>
+                            <li>Material sourcing and procurement</li>
+                            <li>Custom furniture design and fabrication</li>
+                            <li>Project management and execution</li>
+                            <li>Final styling and installation</li>
+                        </ul>
+                    </div>
+                    <div class="service-meta">
+                        <span><strong>Timeline:</strong> 8-12 weeks</span>
+                        <span><strong>Starting Price:</strong> ₹15 lakhs</span>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">Request Quote</a>
+                </div>
+
+                <div class="service-detail fade-in-up delay-1">
+                    <h3>Commercial & Office Interior Design</h3>
+                    <p>Create inspiring work environments that reflect your brand and boost productivity. Perfect for offices, boutiques, cafés, and retail spaces.</p>
+                    <div class="service-info">
+                        <h4>What's Included:</h4>
+                        <ul>
+                            <li>Brand-aligned interior design concepts</li>
+                            <li>Space optimization and workflow planning</li>
+                            <li>Ergonomic furniture and lighting solutions</li>
+                            <li>Acoustic treatment and privacy solutions</li>
+                            <li>Complete project execution and handover</li>
+                        </ul>
+                    </div>
+                    <div class="service-meta">
+                        <span><strong>Timeline:</strong> 6-10 weeks</span>
+                        <span><strong>Starting Price:</strong> ₹10 lakhs</span>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">Request Quote</a>
+                </div>
+
+                <div class="service-detail fade-in-up delay-2">
+                    <h3>3D Virtual Design & Visualization</h3>
+                    <p>See your space before it's built with photorealistic 3D renders. Perfect for decision-making and planning.</p>
+                    <div class="service-info">
+                        <h4>What's Included:</h4>
+                        <ul>
+                            <li>High-resolution 3D renderings (4-6 views)</li>
+                            <li>Virtual walk-through video</li>
+                            <li>Material and color palette presentation</li>
+                            <li>Lighting and mood simulations</li>
+                        </ul>
+                    </div>
+                    <div class="service-meta">
+                        <span><strong>Timeline:</strong> 2-3 weeks</span>
+                        <span><strong>Price:</strong> ₹50,000 per room</span>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">Request Quote</a>
+                </div>
+
+                <div class="service-detail fade-in-up delay-3">
+                    <h3>Renovation Layout Planning</h3>
+                    <p>Strategic planning for renovation projects. We optimize your existing space for better functionality and aesthetics.</p>
+                    <div class="service-info">
+                        <h4>What's Included:</h4>
+                        <ul>
+                            <li>Site assessment and measurement</li>
+                            <li>Floor plan optimization</li>
+                            <li>Structural consultation</li>
+                            <li>Material and finish recommendations</li>
+                            <li>Budget estimation</li>
+                        </ul>
+                    </div>
+                    <div class="service-meta">
+                        <span><strong>Timeline:</strong> 2-4 weeks</span>
+                        <span><strong>Price:</strong> ₹75,000 onwards</span>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">Request Quote</a>
+                </div>
+
+                <div class="service-detail fade-in-up delay-4">
+                    <h3>Color & Material Consultation</h3>
+                    <p>Expert guidance on color palettes, materials, and finishes to elevate your space.</p>
+                    <div class="service-info">
+                        <h4>What's Included:</h4>
+                        <ul>
+                            <li>2-hour consultation (in-person or virtual)</li>
+                            <li>Custom color palette creation</li>
+                            <li>Material board with samples</li>
+                            <li>Paint and finish recommendations</li>
+                            <li>Shopping list with supplier contacts</li>
+                        </ul>
+                    </div>
+                    <div class="service-meta">
+                        <span><strong>Timeline:</strong> 1 week</span>
+                        <span><strong>Price:</strong> ₹25,000</span>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">Request Quote</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Portfolio</h2>
+                <p>Explore our completed projects</p>
+            </div>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="residential">Residential</button>
+                <button class="filter-btn" data-filter="commercial">Commercial</button>
+                <button class="filter-btn" data-filter="3d">3D Concepts</button>
+            </div>
+            <div class="portfolio-full">
+                <div class="portfolio-project fade-in-up" data-category="residential">
+                    <img src="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=1200&h=800&fit=crop" alt="Modern living room" loading="lazy">
+                    <div class="project-info">
+                        <h3>Modern Living Space</h3>
+                        <p><strong>Location:</strong> Mumbai · <strong>Style:</strong> Contemporary Minimalist</p>
+                        <p><strong>Challenge:</strong> Transform a traditional 1200 sq ft apartment into a modern, open-concept living space.</p>
+                        <p><strong>Result:</strong> A light-filled home with custom storage, neutral palette, and seamless flow between spaces.</p>
+                    </div>
+                </div>
+                <div class="portfolio-project fade-in-up delay-1" data-category="residential">
+                    <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&h=800&fit=crop" alt="Scandinavian bedroom" loading="lazy">
+                    <div class="project-info">
+                        <h3>Scandinavian Retreat</h3>
+                        <p><strong>Location:</strong> Bangalore · <strong>Style:</strong> Scandinavian</p>
+                        <p><strong>Challenge:</strong> Create a calming bedroom sanctuary with limited natural light.</p>
+                        <p><strong>Result:</strong> Warm wood tones, layered lighting, and minimalist furnishings for ultimate relaxation.</p>
+                    </div>
+                </div>
+                <div class="portfolio-project fade-in-up delay-2" data-category="commercial">
+                    <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1200&h=800&fit=crop" alt="Corporate office" loading="lazy">
+                    <div class="project-info">
+                        <h3>Corporate Office Transformation</h3>
+                        <p><strong>Location:</strong> Pune · <strong>Style:</strong> Modern Corporate</p>
+                        <p><strong>Challenge:</strong> Design a collaborative workspace for a tech startup with 50 employees.</p>
+                        <p><strong>Result:</strong> Open-plan layout with breakout zones, biophilic design elements, and branded accents.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get in Touch</h2>
+                <p>Ready to transform your space? Let's start the conversation.</p>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-form fade-in-left">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="projectType">Project Type *</label>
+                                <select id="projectType" name="projectType" required>
+                                    <option value="">Select...</option>
+                                    <option value="residential">Residential Full Interior</option>
+                                    <option value="commercial">Commercial/Office Design</option>
+                                    <option value="3d">3D Visualization</option>
+                                    <option value="renovation">Renovation Planning</option>
+                                    <option value="consultation">Consultation Only</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="budget">Budget Range</label>
+                                <select id="budget" name="budget">
+                                    <option value="">Select...</option>
+                                    <option value="under-5">Under ₹5 lakhs</option>
+                                    <option value="5-15">₹5-15 lakhs</option>
+                                    <option value="15-30">₹15-30 lakhs</option>
+                                    <option value="30-plus">₹30 lakhs+</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Tell us about your project *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info fade-in-right">
+                    <div class="contact-detail">
+                        <h3> Dakshraj Mehta</h3>
+                        <p>Civil Engineer || Interior Designer</p>
+                        <p>Architect      || Project Manager</p>
+                    </div>
+                    <div class="contact-detail">
+                        
+                        <h4>📱 Phone</h4>
+                        <p><a href="tel:+918302807739">+91 83028 07739</a></p>
+                        <h4>📧 Email</h4>
+                        <p><a href="mailto:hello@yourbusiness.com">hello@yourbusiness.com</a></p>
+                    </div>
+                    <div class="contact-detail">
+                        <h4>💬 WhatsApp</h4>
+                        <p><a href="https://wa.me/918302807739" target="_blank">Chat with us</a></p>
+                    </div>
+                    <div class="contact-detail">
+                        <h4>📍 Location</h4>
+                        <p>Serving Pune, Mumbai & surrounding areas</p>
+                    </div>
+                    <div class="faq-mini">
+                        <h4>Quick FAQ</h4>
+                        <div class="faq-item">
+                            <strong>How do I get started?</strong>
+                            <p>Book a free consultation call, and we'll discuss your project vision and requirements.</p>
+                        </div>
+                        <div class="faq-item">
+                            <strong>What's the typical timeline?</strong>
+                            <p>Full home projects take 8-12 weeks; consultations can be completed in 1-2 weeks.</p>
+                        </div>
+                        <div class="faq-item">
+                            <strong>How does pricing work?</strong>
+                            <p>We offer transparent pricing based on scope, materials, and timeline. Request a detailed quote.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
+        <div class="container">
+            <h2>Ready to Elevate Your Space?</h2>
+            <p>Book your free consultation and let's bring your vision to life.</p>
+            <a href="#contact" class="btn btn-light">Book Free Consultation</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h4>AUREUM Interiors</h4>
+                    <p>Transforming spaces with thoughtful, timeless design.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/creative_engineers23/" aria-label="Instagram" target="_blank">
+                        <i class="fa-brands fa-instagram" style="color:#E4405F;"></i> </a>
+                        <a href="#" aria-label="Facebook">👥</a>
+                        <a href="#" aria-label="LinkedIn">💼</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Residential Design</a></li>
+                        <li><a href="#services">Commercial Design</a></li>
+                        <li><a href="#services">3D Visualization</a></li>
+                        <li><a href="#services">Consultation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#terms">Terms of Service</a></li>
+                        <li><a href="#refund">Refund Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AUREUM Interiors. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
