@@ -8,7 +8,7 @@
 :root {
     /* Color Palette - White + Light Green */
     --color-primary: #90EE90;        /* Light green accent */
-    --color-secondary: #2d5016;      /* Deep forest green */
+    --color-secondary:  #a88207      /* Deep forest green */
     --color-text: #1a1a1a;           /* Dark text */
     --color-text-light: #4a4a4a;     /* Medium gray text */
     --color-bg: #ffffff;             /* Pure white */
@@ -177,7 +177,7 @@ p {
 }
 
 .logo-image {
-    height: 45px;
+    height: 100px;
     width: auto;
     object-fit: contain;
     transition: var(--transition);
