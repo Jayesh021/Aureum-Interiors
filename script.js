@@ -173,7 +173,7 @@ if (contactForm) {
         });
 
         // Form validation
-        if (!data.name || !data.email || !data.phone || !data.projectType || !data.message) {
+        if (!data.name || !data.email || !data.phone || !data.projectType) {
             showNotification('Please fill in all required fields.', 'error');
             return;
         }
